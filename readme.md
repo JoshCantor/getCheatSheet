@@ -1,58 +1,41 @@
-# Galvanize Fullstack Pre-Course Curriculum
-Hello, Full-Stackers!
+## Cheat Sheet
 
-We want to give you major props for your decision to enroll at Galvanize's fullstack immersive. We believe that you have the potential to become an awesome full-stack developer. We also believe that we can help you towards not becoming just a developer, but a master of this craft.
+Whenever you're confused about git, come read this cheat sheet. Remember that all git commands can be run with the `--help` option. For example:
 
-To place you in the best position for success, we've developed a pre-course. During each chapter of this pre-course, you'll be introduced to a foundation of modern web development. The material in these chapters will be invaluable during your first day of class, so please allocate enough time to complete the work. You'll find a huge return on your investment of time.
+`$ git branch --help` or `$git log --help`
 
-If you ever need help with the pre-course, please [contact us][contact-us].
+### Essential Git Commands
 
-## Objectives
-Here's the objectives of the pre-course:
+####Create a new git repository
+`$ git init` - Create a new, local repository
 
-students will...
+#### Repo Status
+`$ git status` - Check the status of your current repository and see which files have changed.
 
-1. [learn the tools of a developer][1]
-2. [learn HTML to build a web-page][2]
-3. [learn CSS to add style to the web-page][3]
-4. [learn JavaScript to add interactivity to the web-page][4]
-5. [learn jQuery to simplify the JavaScript][5]
-6. [create a personal project][6]
+`$ git diff` - __Fill Me Out__
 
-### 1 of 6: Tools of a Developer
-In this chapter, you'll be introduced to the tools of a web developer. Everything you learn here will be immediately useful to your daily workflow as a student and, eventually, as a developer.
+#### Repo History
+`$ git log` - 
 
-### 2 of 6: HTML for Structure
-In this chapter, you'll be introduced to the language that adds structure and content to all web-pages: HTML. We'll focus on just enough HTML to help you re-create the structure and content of a result's page on IMDB.
+`$ git log --oneline --decorate --color --graph --all` - __Fill Me Out__
 
-### 3 of 6: CSS for Style
-In this chapter, you'll be introduced to the language that adds style to web-pages: CSS. We'll take the HTML you wrote during the previous chapter and learn just enough CSS to style your result's page of IMDB.
+`$ git log -p [filename]` __Fill Me Out__
 
-### 4 of 6: JavaScript for Interactivity
-In this chapter, you'll be introduced to the language that adds interactivity to web-pages: JavaScript. We'll learn enough JavaScript to help you eventually manipulate the HTML and CSS you've written.
+#### Stage files to commit
+`$ git add <filename>` - __Fill Me Out__
 
-### 5 of 6: jQuery for Simplified JavaScript
-In this chapter, you'll be introduced to JavaScript's most popular library: jQuery. We'll learn enough jQuery to help you fetch data about movies (via AJAX) and to use that data to manipulate a web-page.
+`$ git add -A` - __Fill Me Out__
 
-### 6 of 6: A Personal Project
-In this chapter, you'll build a personal website using all the things you've learned so far. We'll use these personal websites as a way to get to know each other on the first day, so let your personality shine and have fun with it. Good luck!
+#### Commit changes in staged files
+`$ git commit -m "<commit message>"` - __Fill Me Out__
 
-### 7 of 7: Bonus
-All finished? Hungry for more?
+#### Branching
+`$ git branch <branch name>` - __Fill Me Out__
 
-## Conclusion
-In this document, you've been introduced to the pre-course. During each chapter, you'll not only be introduced to a new topic, but you'll be also given enough information to build a simple web-based application. The knowledge you gain here will form the foundation for what you'll learn during your time here.
+`$ git branch` - __Fill Me Out__
 
-> Estimated time to complete: 25 to 30 hours
+`$ git checkout <branch name>` - __Fill Me Out__
 
-Let's get started: [Chapter 1: Tools of a Developer][next-page].
+#### Merging
 
-[1]: #1-of-6-tools-of-a-developer
-[2]: #2-of-6-html-for-structure
-[3]: #3-of-6-css-for-style
-[4]: #4-of-6-javascript-for-interactivity
-[5]: #5-of-6-jquery-for-simplified-javascript
-[6]: #6-of-6-a-personal-project
-
-[contact-us]: mailto:fs.all@galvanize.com
-[next-page]: ./_01_tools
+`$ git merge <branch name>` - __Fill Me Out__
