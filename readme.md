@@ -15,11 +15,11 @@ Whenever you're confused about git, come read this cheat sheet. Remember that al
 `$ git diff` - __Fill Me Out__
 
 #### Repo History
-`$ git log` - 
+`$ git log` - Keeps a record of what has been committed, with the bottom being the oldest and the top being the latest of the commits.
 
-`$ git log --oneline --decorate --color --graph --all` - __Fill Me Out__
+`$ git log --oneline --decorate --color --graph --all` - The -oneline takes the message of your commits, through a history log. The decorate changes the font styles and color of the HEAD, master, and origin/master. The --graph shows a linear time line (vertically) so that it would be easier for the reader to see the history log.
 
-`$ git log -p [filename]` __Fill Me Out__
+`$ git log -p [filename]` Shows the last commit, and it's message.
 
 #### Stage files to commit
 `$ git add <filename>` - __Fill Me Out__
