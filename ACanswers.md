@@ -30,17 +30,13 @@ Whenever you're confused about git, come read this cheat sheet. Remember that al
 `$ git commit -m "<commit message>"` - Provides the commit message on the command line. Let's the admin and other users know any specific information about the commit. 
 
 #### Branching
-`$ git branch <branch name>` - creates new branch named <branch name> (doesn't put you in that branch) (per git documentation: "List, create, or delete branches")
+`$ git branch <branch name>` - __Fill Me Out__
 
-`$ git branch` - lists all branches in repo; current branch is colored green (per git documentation: "List, create, or delete branches")
+`$ git branch` - __Fill Me Out__
 
-`$ git checkout <branch name>` - changes current branch to <branch name>
+`$ git checkout <branch name>` - __Fill Me Out__
 
 #### Merging
 
-<<<<<<< HEAD
-`$ git merge <branch name>` - Join two or more development histories together. Incorporates changes from the named commits (since the time their histories diverged from the current branch) into the current branch. This command is used by git pull to incorporate changes from another repository and can be used by hand to merge changes from one branch into another.
-=======
 `$ git merge <branch name>` - __Fill Me Out__
 
->>>>>>> 5d5defd8e3c4c81305b7a138fc285f0fab8f9c89
