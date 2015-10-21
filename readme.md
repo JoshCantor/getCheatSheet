@@ -40,3 +40,8 @@ Whenever you're confused about git, come read this cheat sheet. Remember that al
 
 `$ git merge <branch name>` - Join two or more development histories together. Incorporates changes from the named commits (since the time their histories diverged from the current branch) into the current branch. This command is used by git pull to incorporate changes from another repository and can be used by hand to merge changes from one branch into another.
 
+#### Command Aliases
+
+`$ git config --global alias.<alias_name> <full_command_name>` - Creates an alias of a full git command
+
+
